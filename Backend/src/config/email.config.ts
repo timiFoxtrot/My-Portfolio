@@ -22,4 +22,4 @@ export const sendEmail = async (email:any, subject:any, text:any) => {
  }catch(err){
   console.log(err);
  }
-}
+};
