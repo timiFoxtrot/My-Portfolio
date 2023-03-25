@@ -81,6 +81,7 @@ form.addEventListener("submit", async (e) => {
     });
     const data = await res.json();
     if (data.status) {
+      alert("Message sent!")
       location.assign("/");
     } else {
       alert("Email error occured");

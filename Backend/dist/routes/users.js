@@ -7,13 +7,6 @@ const express_1 = __importDefault(require("express"));
 const email_config_1 = require("../config/email.config");
 const router = express_1.default.Router();
 /* GET users listing. */
-// router.get(
-//   "/portfolio",
-//   async (req: Request, res: Response, next: NextFunction) => {
-//     console.log("hello world");
-//     res.render("portfolio");
-//   }
-// );
 router.post("/", async (req, res, next) => {
     try {
         console.log(req.body);

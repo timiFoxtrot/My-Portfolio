@@ -3,13 +3,6 @@ import { sendEmail } from "../config/email.config";
 const router = express.Router();
 
 /* GET users listing. */
-// router.get(
-//   "/portfolio",
-//   async (req: Request, res: Response, next: NextFunction) => {
-//     console.log("hello world");
-//     res.render("portfolio");
-//   }
-// );
 
 router.post("/", async (req: Request, res: Response, next: NextFunction) => {
   try {
